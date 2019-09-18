@@ -1,0 +1,1 @@
+<view><block wx:if="{{showLoading}}"><view data-event-opts="{{[['touchmove',[['moveHandleStop',['$event']]]]]}}" class="simple-load load-modal" catchtouchmove="__e"><image class="png" src="{{image}}" mode="aspectFit"></image><view class="has-desc-color">{{text}}</view></view></block></view>

@@ -1,0 +1,4 @@
+<import src="/components/uni-password/uni-password.vue.wxml" />
+
+<template name="M28d89576-default-28d89576-0">{{psdtext}}</template>
+

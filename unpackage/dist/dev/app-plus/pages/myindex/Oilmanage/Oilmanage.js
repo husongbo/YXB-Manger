@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"uni-media-list-text-top.",[1],"data-v-6786bb76{margin-left: ",[0,30],";}\n.",[1],"list-parent.",[1],"data-v-6786bb76{ height: 100%; }\n",],undefined,{path:"./pages/myindex/Oilmanage/Oilmanage.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/myindex/Oilmanage/Oilmanage.wxml') } }));

@@ -1,0 +1,1 @@
+<view class="mht-loader"><view class="mht-loader-content"><view hidden="{{!(showImage)}}" class="mht-loader-icon" style="{{'margin-right:'+(iconMR)+';'}}"><image src="{{imgSrc}}"></image></view><view class="{{['mht-loader-'+loadingType]}}"></view></view></view>

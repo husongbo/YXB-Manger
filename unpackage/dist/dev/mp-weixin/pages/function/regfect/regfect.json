@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker",
+    "simple-loading": "/components/loading/dialog-loading",
+    "alerts": "/components/loading/alert"
+  }
+}

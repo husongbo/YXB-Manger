@@ -1,0 +1,18 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "二维码加油记录",
+  "animationType": "fade-in",
+  "animationDuration": 300,
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "开取发票",
+        "fontSrc": "/static/uni.ttf",
+        "fontSize": "15px",
+        "color": "black",
+        "width": "auto",
+        "float": "right"
+      }
+    ]
+  }
+}

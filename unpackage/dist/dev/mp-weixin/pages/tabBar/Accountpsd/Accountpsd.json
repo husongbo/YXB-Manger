@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "手机号密码登录",
+  "usingComponents": {
+    "simple-loading": "/components/loading/dialog-loading",
+    "alerts": "/components/loading/alert"
+  }
+}

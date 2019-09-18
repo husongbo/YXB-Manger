@@ -1,0 +1,1 @@
+<view class="{{[show?'animate-show simple-alert':'animate-hide simple-alert']}}"><view class="icon simple-icon"></view><view class="simple-alert-msg">{{msg}}</view></view>

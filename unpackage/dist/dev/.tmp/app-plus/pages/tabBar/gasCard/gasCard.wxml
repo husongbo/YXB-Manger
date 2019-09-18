@@ -1,0 +1,2 @@
+<import src="./gasCard.vue.wxml" />
+    <template is="b45cafd2" data="{{ ...$root['0'], $root }}"/>

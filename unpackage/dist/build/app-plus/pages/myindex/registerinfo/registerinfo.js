@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"parent-re.",[1],"data-v-44f82c8b{ height:100%; background: white; overflow-x: hidden; }\n",],undefined,{path:"./pages/myindex/registerinfo/registerinfo.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/myindex/registerinfo/registerinfo.wxml') } }));

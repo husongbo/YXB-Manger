@@ -1,0 +1,2 @@
+<import src="./Oilmanage.vue.wxml" />
+    <template is="2458ef1e" data="{{ ...$root['0'], $root }}"/>

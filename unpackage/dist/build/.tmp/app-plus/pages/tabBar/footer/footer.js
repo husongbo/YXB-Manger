@@ -1,0 +1,1 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/tabBar/footer/footer"],{3090:function(e,o,a){"use strict";a("fa0a");var t=u(a("b0ce")),n=u(a("2654"));function u(e){return e&&e.__esModule?e:{default:e}}Page((0,t.default)(n.default))}},[["3090","common/runtime","common/vendor"]]]);

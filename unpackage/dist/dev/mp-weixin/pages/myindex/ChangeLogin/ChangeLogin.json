@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "修改登录密码",
+  "usingComponents": {
+    "simple-loading": "/components/loading/dialog-loading"
+  }
+}

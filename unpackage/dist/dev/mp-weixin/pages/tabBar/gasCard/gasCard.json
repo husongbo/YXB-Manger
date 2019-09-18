@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的油卡",
+  "usingComponents": {
+    "uni-icon": "/components/uni-icon",
+    "regs": "/pages/function/register/reg",
+    "footers": "/pages/tabBar/footer/footer",
+    "loading": "/components/loading/Winglau14-LotusLoading",
+    "alerts": "/components/loading/alert",
+    "simple-loading": "/components/loading/dialog-loading"
+  }
+}

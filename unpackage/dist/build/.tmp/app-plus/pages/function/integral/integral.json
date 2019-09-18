@@ -1,0 +1,17 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "我的积分",
+  "animationType": "fade-in",
+  "animationDuration": 300,
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "menu",
+        "fontSize": "15px",
+        "color": "black",
+        "width": "auto",
+        "float": "right"
+      }
+    ]
+  }
+}

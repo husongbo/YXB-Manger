@@ -1,0 +1,1 @@
+<template name="b2ed7a6c"><view class="_view Mb2ed7a6c {{[show ? 'animate-show simple-alert' : 'animate-hide simple-alert']}}"><view class="_view Mb2ed7a6c icon simple-icon"></view><view class="_view Mb2ed7a6c simple-alert-msg">{{msg}}</view></view></template>

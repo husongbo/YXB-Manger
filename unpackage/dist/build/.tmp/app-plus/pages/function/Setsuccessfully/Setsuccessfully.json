@@ -1,0 +1,18 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "注册成功",
+  "animationType": "fade-in",
+  "animationDuration": 300,
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "登录",
+        "fontSrc": "/static/uni.ttf",
+        "fontSize": "15px",
+        "color": "black",
+        "width": "auto",
+        "float": "right"
+      }
+    ]
+  }
+}

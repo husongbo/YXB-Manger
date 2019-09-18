@@ -1,0 +1,15 @@
+
+.uni-list-cell-navigate.data-v-d95444dc{
+	padding: 14px 15px;
+}
+.uni-media-list-text-top.data-v-d95444dc{
+	padding-left: 20rpx;
+}
+.uni-list-cell-navigate.uni-navigate-right.data-v-d95444dc:after{
+	content: '';
+}
+.parent-view.data-v-d95444dc{
+	height: calc(100vh - 44px);
+	overflow-y: hidden;
+}
+

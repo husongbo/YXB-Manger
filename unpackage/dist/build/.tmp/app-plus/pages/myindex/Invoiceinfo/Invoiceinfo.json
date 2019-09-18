@@ -1,0 +1,16 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "发票记录",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "发票须知",
+        "fontSrc": "/static/uni.ttf",
+        "fontSize": "15px",
+        "color": "black",
+        "width": "auto",
+        "float": "right"
+      }
+    ]
+  }
+}

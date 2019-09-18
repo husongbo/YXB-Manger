@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "购买加油券",
+  "usingComponents": {
+    "uni-keyboard": "/components/uni-keyboard",
+    "alerts": "/components/loading/alert",
+    "simple-loading": "/components/loading/dialog-loading",
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode",
+    "coupon": "/components/coolc-coupon/coolc-coupon"
+  }
+}

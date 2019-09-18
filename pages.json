@@ -1,0 +1,547 @@
+{
+    "pages" : [
+        // pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/tabBar/home/home",
+            "style" : {
+                "app-plus" : {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+                    "titleNView" : {
+                        "buttons" : []
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/tabBar/gasCard/gasCard",
+            "style" : {
+                "navigationBarTitleText" : "我的油卡",
+                "app-plus" : {
+					"animationType": "fade-in",
+					"animationDuration": 300
+                }
+            }
+        },
+        {
+            "path" : "pages/tabBar/personCenter/personCenter",
+            "style" : {
+                "navigationBarTitleText" : "个人中心",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+							{
+							    "text" : "设置",
+							    "fontSrc" : "/static/uni.ttf",
+							    "fontSize" : "15px",
+							    "color" : "black",
+								"width":"auto",
+								"float":"right"
+							}
+						]
+                    },
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"bounce":"block"
+                }
+            }
+        },
+        {
+            "path" : "pages/tabBar/component/component",
+            "style" : {
+                "navigationBarTitleText" : "导航",
+                "app-plus" : {
+					"animationType": "fade-in",
+					"animationDuration": 300
+                }
+            }
+        },
+
+        {
+            "path" : "pages/tabBar/template/template",
+            "style" : {
+                "navigationBarTitleText" : "模版",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "\ue534",
+                                "fontSrc" : "/static/uni.ttf",
+                                "fontSize" : "22px",
+                                "color" : "#999999"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        //优惠价
+        {
+            "path" : "pages/index/Coupon/Coupon",
+            "style" : {
+                "navigationBarTitleText" : "优惠券"
+            }
+        },
+        //油卡管理	
+        {
+            "path" : "pages/myindex/Oilmanage/Oilmanage",
+            "style" : {
+                "navigationBarTitleText" : "油卡管理"
+            }
+        },
+        //个人信息
+        {
+            "path" : "pages/myindex/Personalinfo/Personalinfo",
+            "style" : {
+                "navigationBarTitleText" : "个人信息"
+            }
+        },
+        //注册信息
+        {
+            "path" : "pages/myindex/registerinfo/registerinfo",
+            "style" : {
+                "navigationBarTitleText" : "注册信息"
+            }
+        },
+        //发票信息
+        {
+            "path" : "pages/myindex/Invoiceinfo/Invoiceinfo",
+            "style" : {
+                "navigationBarTitleText" : "发票记录",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "发票须知",
+                                "fontSrc" : "/static/uni.ttf",
+                                "fontSize" : "15px",
+                                "color" : "black",
+                        		"width":"auto",
+                        		"float":"right"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        //帮助
+        {
+            "path" : "pages/myindex/Helpfeed/Helpfeed",
+            "style" : {
+                "navigationBarTitleText" : "帮助反馈"
+            }
+        },
+        //申请发票
+        {
+            "path" : "pages/myindex/Appinvoice/Appinvoice",
+            "style" : {
+                "navigationBarTitleText" : "提取码申请发票",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "开票记录",
+                                "fontSrc" : "/static/uni.ttf",
+                                "fontSize" : "15px",
+                                "color" : "black",
+								"width":"auto",
+								"float":"right"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        //关于我们
+        {
+            "path" : "pages/myindex/aboutme/aboutme",
+            "style" : {
+                "navigationBarTitleText" : "关于我们"
+            }
+        },
+        //用户协议
+        {
+            "path" : "pages/myindex/Useragreement/Useragreement",
+            "style" : {
+                "navigationBarTitleText" : "油信宝加油服务协议"
+            }
+        },
+        //圈存
+        {
+            "path" : "pages/myindex/Helpfeed/Trap/Trap",
+            "style" : {
+                "navigationBarTitleText" : "什么是圈存"
+            }
+        },
+        //优惠券使用规则
+        {
+            "path" : "pages/myindex/Helpfeed/RulesVouchers/RulesVouchers",
+            "style" : {
+                "navigationBarTitleText" : "优惠券"
+            }
+        },
+        //发票说明
+        {
+            "path" : "pages/myindex/Helpfeed/Invoicede/Invoicede",
+            "style" : {
+                "navigationBarTitleText" : "发票说明"
+            }
+        },
+        //充值
+        {
+            "path" : "pages/myindex/recharge/recharge",
+            "style" : {
+                "navigationBarTitleText" : "充值"
+				
+            }
+        },
+        //联通专享
+        {
+            "path" : "pages/function/Unicom/Unicom",
+            "style" : {
+                "navigationBarTitleText" : "我的联通卡",
+				"navigationBarBackgroundColor":"#C8141E",
+				"navigationBarTextStyle":"white"
+            }
+        },
+		//联通页面
+		{
+		    "path" : "pages/function/Unicom/reunicom",
+			"style" : {
+			    "app-plus":{
+					"titleNView":false
+					
+				}
+			}
+		},
+        //购买加油券
+        {
+            "path" : "pages/function/Buygasrolls/Buygasrolls",
+            "style" : {
+                "navigationBarTitleText" : "购买加油券",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "交易记录",
+                                "fontSrc" : "/static/uni.ttf",
+                                "fontSize" : "15px",
+                                "color" : "black",
+								"width":"auto",
+								"float":"right"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+		//二维码加油记录
+        {
+            "path" : "pages/function/coderecord/coderecord",
+            "style" : {
+				"navigationBarTitleText" : "二维码加油记录",
+				"app-plus" : {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+				    "titleNView" : {
+				        "buttons" : [
+				            {
+				                "text" : "开取发票",
+				                "fontSrc" : "/static/uni.ttf",
+				                "fontSize" : "15px",
+				                "color" : "black",
+								"width":"auto",
+								"float":"right"
+				            }
+				        ]
+				    }
+					
+				}
+			}
+        }
+		//开票须知
+        ,{
+            "path" : "pages/myindex/Instructions/Instructions",
+            "style" : {
+				"navigationBarTitleText" : "发票须知"
+			}
+        },
+        {
+            "path" : "pages/about/graceui-alert/graceui-alert",
+            "style" : {}
+        },
+		//补卡流程
+		{
+            "path" : "pages/tabBar/gasCard/Cardprocess/Cardprocess",
+            "style" : {
+				"navigationBarTitleText" : "补卡流程"
+			}
+        },
+		{
+            "path" : "pages/function/x-modal/x-modal",
+            "style" : {}
+        },
+		//底部菜单
+		{
+            "path" : "pages/tabBar/footer/footer",
+            "style" : {}
+        },
+		//备用金查询
+		{
+            "path" : "pages/tabBar/gasCard/Reservefund/Reservefund",
+            "style" : {
+            	"navigationBarTitleText" : "油卡充值查询"
+            }
+        },
+		//备用金明细
+		{
+            "path" : "pages/tabBar/gasCard/Details/Details",
+            "style" : {
+				"navigationBarTitleText" : "油卡充值明细"
+			}
+        },
+		//积分
+		{
+            "path" : "pages/function/integral/integral",
+            "style" : {
+				"navigationBarTitleText" : "我的积分",
+				"app-plus" : {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+				    "titleNView" : {
+				        "buttons" : [
+				    //         {
+				    //             "text" : "返回",
+				    //             "fontSrc" : "/static/uni.ttf",
+				    //             "fontSize" : "15px",
+				    //             "color" : "black",
+								// "width":"auto",
+								// "float":"left"
+				    //         },
+							{
+							    // "text" : "",
+								"type":"menu",
+							    // "fontSrc" : "/static/uni.ttf",
+								// "background":"/static/navlcon/nav_icon_shuoming.png",
+							    "fontSize" : "15px",
+							    "color" : "black",
+								"width":"auto",
+								"float":"right"
+							}
+				        ]
+				    }
+					
+				}
+			}
+        }
+        ,{//完善信息
+            "path" : "pages/myindex/Perfectinfor/Perfectinfor",
+            "style" : {
+                "navigationBarTitleText" : "完善信息"
+            }
+        }
+        ,
+		//手机设置
+		{
+            "path" : "pages/function/regphone/regphone",
+            "style" : {}
+        }
+        ,
+		//详细信息设置
+		{
+            "path" : "pages/function/regfect/regfect",
+            "style" : {}
+        }
+        ,
+		//设置密码
+		{
+            "path" : "pages/myindex/Paymentpassword/Paymentpassword",
+            "style" : {
+				"navigationBarTitleText" : "密码设置"
+			}
+        }
+        ,
+		//加油记录详情
+		{
+            "path" : "pages/function/Fuelrecord/Fuelrecord",
+            "style" : {
+				"navigationBarTitleText" : "记录详情"
+			}
+        }
+        ,
+		//用户登录
+		{
+            "path" : "pages/tabBar/Login/Login",
+            "style" : {
+				"navigationBarTitleText" : "用户登录"
+			}
+        }
+        ,
+		//微信授权
+		{
+            "path" : "pages/tabBar/WeChat/WeChat",
+            "style" : {
+				"navigationBarTitleText" : "微信账户授权"
+			}
+        }
+        ,
+		//信息设置
+		{
+            "path" : "pages/tabBar/UserInfo/UserInfo",
+            "style" : {
+				"navigationBarTitleText" : "信息设置"
+			}
+        }
+        ,
+		//余额
+		{
+            "path" : "pages/function/integral/balance/balance",
+            "style" : {
+				"navigationBarTitleText" : "我的余额"
+			}
+        }
+        ,
+		//优惠加油
+		{
+            "path" : "pages/function/Prerefueling/Prerefueling",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,
+		//设置用户密码
+		{
+            "path" : "pages/function/Setpassword/Setpassword",
+            "style" : {
+				"navigationBarTitleText" : "设置密码"
+			}
+        }
+        ,
+		//设置成功
+		{
+            "path" : "pages/function/Setsuccessfully/Setsuccessfully",
+            "style" : {
+				"navigationBarTitleText" : "注册成功",
+				"app-plus" : {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+				    "titleNView" : {
+				        "buttons" : [
+				            {
+				                "text" : "登录",
+				                "fontSrc" : "/static/uni.ttf",
+				                "fontSize" : "15px",
+				                "color" : "black",
+								"width":"auto",
+								"float":"right"
+				            }
+				        ]
+				    }
+					
+				}
+			}
+        }
+        ,
+		//账户密码登录
+		{
+            "path" : "pages/tabBar/Accountpsd/Accountpsd",
+            "style" : {
+				"navigationBarTitleText" : "手机号密码登录"
+			}
+        }
+        ,
+		//验证码登录
+		{
+            "path" : "pages/tabBar/Authentication/Authentication",
+            "style" : {
+				"navigationBarTitleText" : "手机验证码登录"
+			}
+        }
+        ,
+		//绑定手机号
+		{
+            "path" : "pages/function/BindingPhone/BindingPhone",
+            "style" : {
+				"navigationBarTitleText" : "绑定手机号"
+			}
+        }
+        ,
+		//余额
+		{
+            "path" : "pages/function/Balance/Balance",
+            "style" : {
+				"navigationBarTitleText" : "我的余额"
+			}
+        }
+		//电子券测试商户
+        ,{
+            "path" : "pages/Businessmen/Testing/Testing",
+            "style" : {
+				"navigationBarTitleText" : "电子券测试商户"
+			}
+        }
+		//修改登录密码
+        ,{
+            "path" : "pages/myindex/ChangeLogin/ChangeLogin",
+            "style" : {
+				"navigationBarTitleText" : "修改登录密码"
+			}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "首页",
+        "navigationBarBackgroundColor" : "white",
+        "backgroundColor" : "white",
+        "mp-alipay" : {
+            "titleBarColor" : "white"
+        },
+		// "navigationStyle": "custom",//取消原生导航
+		"animationType" : "pop-in",
+		"animationDuration" : "300"
+    },
+    "tabBar" : {
+        "color" : "#7A7E83",
+        "selectedColor" : "#ff8200",
+        "borderStyle" : "black",
+        "backgroundColor" : "white",
+		"position":"bottom",
+		"ref":"abo",
+        "list" : [
+            {
+                "pagePath" : "pages/tabBar/home/home",
+                "iconPath" : "static/navIcon/shous.png",
+                "selectedIconPath" : "static/navIcon/shouss.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/tabBar/component/component",
+                "iconPath" : "static/navIcon/daos.png",
+                "selectedIconPath" : "static/navIcon/daoss.png",
+                "text" : "导航"
+            },
+            {
+                "pagePath" : "pages/tabBar/gasCard/gasCard",
+                "iconPath" : "static/navIcon/yous.png",
+                "selectedIconPath" : "static/navIcon/youss.png",
+                "text" : "油卡"
+            },
+            {
+                "pagePath" : "pages/tabBar/personCenter/personCenter",
+                "iconPath" : "static/navIcon/mys.png",
+                "selectedIconPath" : "static/navIcon/myss.png",
+                "text" : "个人中心"
+            }
+        ]
+    },
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

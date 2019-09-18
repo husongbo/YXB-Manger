@@ -1,0 +1,21 @@
+
+.uni-media-list-text-top.data-v-c7c86644{
+	margin-left: 20rpx;
+	font-weight: bold;
+	margin-top: 4rpx;
+}
+.uni-list.data-v-c7c86644{
+	margin-top: 30rpx;
+}
+uni-navigator.data-v-c7c86644{
+	width:100%;
+}
+.parents.data-v-c7c86644{
+	height: calc(100vh - 59px);
+	overflow-y: hidden;
+}
+.uni-list-cell.data-v-c7c86644::after{
+	height: 0;
+}
+
+

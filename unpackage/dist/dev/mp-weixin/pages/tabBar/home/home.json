@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "graceui-alert": "/pages/about/graceui-alert/graceui-alert",
+    "modals": "/pages/function/x-modal/x-modal",
+    "mht-loader": "/pages/function/mht-loader/mht-loader",
+    "simple-dialog": "/components/loading/dialog"
+  }
+}

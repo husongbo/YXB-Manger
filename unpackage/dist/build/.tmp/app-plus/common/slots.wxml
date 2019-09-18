@@ -1,0 +1,19 @@
+<import src="/components/uni-password/uni-password.vue.wxml" />
+<import src="/components/loading/Winglau14-LotusLoading.vue.wxml" />
+<import src="/components/loading/alert.vue.wxml" />
+<import src="/components/loading/dialog-loading.vue.wxml" />
+<import src="/pages/function/mht-loader/mht-loader.vue.wxml" />
+<import src="/common/slots.wxml" />
+<import src="/components/loading/dialog.vue.wxml" />
+<import src="/pages/myindex/Invoiceinfo/list.vue.wxml" />
+<import src="/components/w-picker/w-picker.vue.wxml" />
+<import src="/pages/function/regphone/regphone.vue.wxml" />
+<import src="/components/coolc-coupon/coolc-coupon.vue.wxml" />
+<import src="/components/uni-keyboard.vue.wxml" />
+<import src="/components/tki-qrcode/tki-qrcode.vue.wxml" />
+<import src="/pages/function/regfect/regfect.vue.wxml" />
+<import src="/components/mpvue-citypicker/mpvueCityPicker.vue.wxml" />
+<import src="/components/i-icon/i-icon.vue.wxml" />
+
+<template name="M28d89576-default-28d89576-0">{{psdtext}}</template>
+

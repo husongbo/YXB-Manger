@@ -1,0 +1,1 @@
+<import src="/pages/function/regphone/regphone.vue.wxml" /><template name="ba169dbe"><view class="_view data-v-44f82c8b parent-re" bindtouchstart="handleProxy" bindtouchmove="handleProxy" data-eventid="{{'ba169dbe-0'}}" data-comkey="{{$k}}"><template data="{{...$root['0'], ...$root[$kk+'ba169dbe-0'],$root}}" is="5349e346"></template></view></template>

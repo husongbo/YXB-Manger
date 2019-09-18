@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"parent-re.",[1],"data-v-1da34896{ height:100%; background: white; }\n",],undefined,{path:"./pages/myindex/Perfectinfor/Perfectinfor.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/myindex/Perfectinfor/Perfectinfor.wxml') } }));

@@ -1,0 +1,19 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "个人中心",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "设置",
+        "fontSrc": "/static/uni.ttf",
+        "fontSize": "15px",
+        "color": "black",
+        "width": "auto",
+        "float": "right"
+      }
+    ]
+  },
+  "animationType": "fade-in",
+  "animationDuration": 300,
+  "bounce": "block"
+}

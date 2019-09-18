@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "uni-icon": "/components/uni-icon",
+    "footers": "/pages/tabBar/footer/footer",
+    "alerts": "/components/loading/alert",
+    "simple-dialog": "/components/loading/dialog"
+  }
+}

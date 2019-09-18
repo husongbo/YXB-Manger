@@ -1,0 +1,16 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "提取码申请发票",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "开票记录",
+        "fontSrc": "/static/uni.ttf",
+        "fontSize": "15px",
+        "color": "black",
+        "width": "auto",
+        "float": "right"
+      }
+    ]
+  }
+}

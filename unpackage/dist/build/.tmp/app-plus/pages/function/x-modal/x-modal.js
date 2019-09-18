@@ -1,0 +1,1 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/function/x-modal/x-modal"],{b77e:function(e,o,a){"use strict";a("fa0a");var n=c(a("b0ce")),u=c(a("06c5"));function c(e){return e&&e.__esModule?e:{default:e}}Page((0,n.default)(u.default))}},[["b77e","common/runtime","common/vendor"]]]);

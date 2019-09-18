@@ -1,0 +1,1 @@
+<block wx:if="{{lotusLoadingData.isShow}}"><view class="lotus-loading-wrap"><view class="lotus-loading-inner"><view class="lotus-loading-center"><text class="lotus-loading-img"></text><view class="lotus-loading-text">加载中</view></view></view></view></block>

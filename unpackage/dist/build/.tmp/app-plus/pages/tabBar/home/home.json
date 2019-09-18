@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "animationType": "fade-in",
+  "animationDuration": 300,
+  "titleNView": {
+    "buttons": []
+  }
+}

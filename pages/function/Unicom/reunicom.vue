@@ -1,0 +1,11 @@
+<template>
+	<view>
+        <web-view  src="https://upay.10010.com/jf_wxgz"></web-view>
+    </view>
+</template>
+
+<script>
+</script>
+
+<style>
+</style>

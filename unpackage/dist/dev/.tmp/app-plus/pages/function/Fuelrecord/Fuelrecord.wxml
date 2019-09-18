@@ -1,0 +1,2 @@
+<import src="./Fuelrecord.vue.wxml" />
+    <template is="1b8633fd" data="{{ ...$root['0'], $root }}"/>

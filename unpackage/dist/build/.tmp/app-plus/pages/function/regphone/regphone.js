@@ -1,0 +1,1 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/function/regphone/regphone"],{a61f:function(e,n,o){"use strict";o("fa0a");var a=t(o("b0ce")),u=t(o("47e2"));function t(e){return e&&e.__esModule?e:{default:e}}Page((0,a.default)(u.default))}},[["a61f","common/runtime","common/vendor"]]]);

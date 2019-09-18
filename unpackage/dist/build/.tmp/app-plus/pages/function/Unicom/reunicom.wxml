@@ -1,0 +1,2 @@
+<import src="./reunicom.vue.wxml" />
+    <template is="e89598e0" data="{{ ...$root['0'], $root }}"/>

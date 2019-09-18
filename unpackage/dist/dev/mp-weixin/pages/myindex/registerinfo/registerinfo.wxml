@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['touchstart',[['touchstart',['$event']]]],['touchmove',[['touchmove',['$event']]]]]}}" class="parent-re data-v-c7279416" bindtouchstart="__e" bindtouchmove="__e"><regs vue-id="1" class="data-v-c7279416" bind:__l="__l"></regs></view>

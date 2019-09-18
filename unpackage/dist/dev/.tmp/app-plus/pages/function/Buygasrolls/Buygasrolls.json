@@ -1,0 +1,16 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "购买加油券",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "交易记录",
+        "fontSrc": "/static/uni.ttf",
+        "fontSize": "15px",
+        "color": "black",
+        "width": "auto",
+        "float": "right"
+      }
+    ]
+  }
+}

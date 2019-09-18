@@ -1,0 +1,1 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/function/regfect/regfect"],{"873e":function(e,n,o){"use strict";o("fa0a");var a=t(o("b0ce")),c=t(o("26cb"));function t(e){return e&&e.__esModule?e:{default:e}}Page((0,a.default)(c.default))}},[["873e","common/runtime","common/vendor"]]]);

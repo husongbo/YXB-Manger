@@ -1,0 +1,2 @@
+<import src="./regfect.vue.wxml" />
+    <template is="01884c67" data="{{ ...$root['0'], $root }}"/>
