@@ -1,1 +1,2 @@
+setCssToHead([".",[1],"footer-img{ width: 20px; height: 20px; position: relative; top:",[0,10],"; }\n.",[1],"aui-active{ color:rgb(255,130,0); }\n.",[1],"aui-bar-tab{ background:#f7f7f8 ; }\n",],undefined,{path:"./pages/tabBar/footer/footer.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/tabBar/footer/footer.wxml') } }));

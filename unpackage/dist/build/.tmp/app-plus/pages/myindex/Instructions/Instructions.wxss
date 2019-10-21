@@ -1,5 +1,5 @@
 
-.content.data-v-14d96d6f{
+.content.data-v-25d48bc6{
 	padding: 0 5%;
     padding-bottom: 1rem;
     font-size: 0.7rem;
@@ -12,11 +12,11 @@
     overflow: auto;
 	padding-top: 1rem;
 }
-._h3.data-v-14d96d6f {
+._h3.data-v-25d48bc6 {
     text-align: center;
     margin-bottom: 0.5rem;
 }
-.invoiceInfo ._div.data-v-14d96d6f {
+.invoiceInfo ._div.data-v-25d48bc6 {
     text-indent: 8%;
 }
 

@@ -1,5 +1,4 @@
 {
-  "usingComponents": {},
   "navigationBarTitleText": "模版",
   "titleNView": {
     "buttons": [
@@ -10,5 +9,6 @@
         "color": "#999999"
       }
     ]
-  }
+  },
+  "usingComponents": {}
 }

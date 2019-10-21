@@ -107,6 +107,22 @@
                     "xxxhdpi" : "C:/Users/admin/Desktop/logo.png"
                 }
             }
+        },
+        "nativePlugins" : {
+            "GZF-YunPay" : {
+                "__plugin_info__" : {
+                    "name" : "YunPay",
+                    "description" : "uni-app唤起云闪付APP",
+                    "platforms" : "Android,iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=650",
+                    "android_package_name" : "com.youxinbao.mm",
+                    "ios_bundle_id" : "",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "650",
+                    "parameters" : {}
+                }
+            }
         }
     },
     /* 快应用特有相关 */

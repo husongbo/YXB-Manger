@@ -30,23 +30,23 @@
 /* 边框颜色 */
 /* 背景颜色 */
 /* 行为相关颜色 */
-button.data-v-4a4e5c5e::after {
+button.data-v-0a8a515e::after {
   border: none;
 }
-.content.data-v-4a4e5c5e {
+.content.data-v-0a8a515e {
   background: white;
   height: 100%;
 }
-.input-box.data-v-4a4e5c5e {
+.input-box.data-v-0a8a515e {
   padding: 50rpx;
   font-size: 30rpx;
 }
-.input-box .Promptpsd.data-v-4a4e5c5e {
+.input-box .Promptpsd.data-v-0a8a515e {
     color: red;
     font-size: 0.7rem;
     margin-top: 20rpx;
 }
-.input-box .input-item.data-v-4a4e5c5e {
+.input-box .input-item.data-v-0a8a515e {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -56,7 +56,7 @@ button.data-v-4a4e5c5e::after {
     line-height: 100rpx;
     height: 100rpx;
 }
-.input-box .input-item .input-label.data-v-4a4e5c5e {
+.input-box .input-item .input-label.data-v-0a8a515e {
       width: 150rpx;
       display: -webkit-box;
       display: -webkit-flex;
@@ -71,19 +71,19 @@ button.data-v-4a4e5c5e::after {
           -ms-flex-align: center;
               align-items: center;
 }
-.input-box .input-item .input-body.data-v-4a4e5c5e {
+.input-box .input-item .input-body.data-v-0a8a515e {
       position: relative;
       height: 100rpx;
       width: calc(100% - 150rpx);
 }
-.input-box .input-item .input-body .input.data-v-4a4e5c5e {
+.input-box .input-item .input-body .input.data-v-0a8a515e {
         line-height: 100rpx;
         height: 100rpx;
         position: relative;
         font-size: 28rpx;
         width: 80%;
 }
-.input-box .input-item .input-body .eye.data-v-4a4e5c5e {
+.input-box .input-item .input-body .eye.data-v-0a8a515e {
         position: absolute;
         height: 50rpx;
         width: 50rpx;
@@ -93,7 +93,7 @@ button.data-v-4a4e5c5e::after {
             -ms-transform: translateY(-50%);
                 transform: translateY(-50%);
 }
-.input-box .input-item .input-body .btn-code.data-v-4a4e5c5e {
+.input-box .input-item .input-body .btn-code.data-v-0a8a515e {
         position: absolute;
         right: 0rpx;
         top: 50%;
@@ -111,7 +111,7 @@ button.data-v-4a4e5c5e::after {
         height: 100rpx;
         line-height: 100rpx;
 }
-.input-box .select.data-v-4a4e5c5e {
+.input-box .select.data-v-0a8a515e {
     padding-top: 40rpx;
     display: -webkit-box;
     display: -webkit-flex;
@@ -123,7 +123,7 @@ button.data-v-4a4e5c5e::after {
             justify-content: space-between;
     color: #003B67;
 }
-.button.data-v-4a4e5c5e {
+.button.data-v-0a8a515e {
   margin: 0 5%;
   background: #ff8200;
   border-radius: 50rpx;

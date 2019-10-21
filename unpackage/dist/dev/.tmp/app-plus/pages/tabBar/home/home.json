@@ -1,8 +1,13 @@
 {
-  "usingComponents": {},
   "animationType": "fade-in",
   "animationDuration": 300,
   "titleNView": {
     "buttons": []
+  },
+  "usingComponents": {
+    "graceui-alert": "/pages/about/graceui-alert/graceui-alert",
+    "modals": "/pages/function/x-modal/x-modal",
+    "mht-loader": "/pages/function/mht-loader/mht-loader",
+    "simple-dialog": "/components/loading/dialog"
   }
 }

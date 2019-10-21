@@ -1,3 +1,0 @@
-<view data-event-opts="{{[['touchstart',[['touchstart',['$event']]]],['touchmove',[['touchmove',['$event']]]]]}}" class="content data-v-3daf8489" bindtouchstart="__e" bindtouchmove="__e"><view class="card data-v-3daf8489"><view class="card-content data-v-3daf8489"><view class="card-content-inner data-v-3daf8489">加油卡是脱机消费的方式，并没有联接网络的属性，圈存是将用户账户中已存入的资金划转到所持有的加油卡上的一种必要步骤。
-				用户充值成功后，需前往加油卡品牌所属的任意加油站，
-				对加油员工说：“我在网上充值后，请帮我圈存一下”或使用加油站内的圈存机按说明进行操作，只需1分钟就可以完成操作。</view></view></view><view class="card data-v-3daf8489"><view class="card-header data-v-3daf8489">温馨提示</view><view class="card-content data-v-3daf8489"><view class="card-content-inner data-v-3daf8489">部分城市无法实现异地圈存，如用户计划出行请提前做好圈存工作，以免遇到异地无法圈存的情况，影响使用。</view></view></view></view>

@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "导航",
-  "usingComponents": {
-    "simple-loading": "/components/loading/dialog-loading"
-  }
-}

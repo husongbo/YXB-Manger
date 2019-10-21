@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "二维码加油记录",
-  "usingComponents": {
-    "w-picker": "/components/w-picker/w-picker"
-  }
-}

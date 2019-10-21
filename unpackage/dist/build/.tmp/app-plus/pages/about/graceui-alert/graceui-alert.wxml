@@ -1,2 +1,1 @@
-<import src="./graceui-alert.vue.wxml" />
-    <template is="7c39f8a0" data="{{ ...$root['0'], $root }}"/>
+<block wx:if="{{!flag}}"><view class="data-v-d20d0cd6"><view class="{{['data-v-d20d0cd6',show?'ganimate-show grace-alert':!show?'grace-alert ':'grace-alert']}}" hidden="{{show}}"><view class="{{['icon gaicon data-v-d20d0cd6','icon-'+msgtype,msgtype]}}"></view><view class="grace-alert-msg data-v-d20d0cd6">{{msg}}</view></view></view></block>

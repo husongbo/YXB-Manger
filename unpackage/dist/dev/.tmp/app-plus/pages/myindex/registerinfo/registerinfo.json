@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "注册信息"
+  "navigationBarTitleText": "注册信息",
+  "usingComponents": {
+    "regs": "/pages/function/regphone/regphone"
+  }
 }

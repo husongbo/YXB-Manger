@@ -11,7 +11,7 @@
     "code": "100"
   },
   "description": "应用描述",
-  "launch_path": "__uniappservice.html",
+  "launch_path": "__uniapptabbar.html",
   "developer": {
     "name": "",
     "email": "",
@@ -25,7 +25,10 @@
       "coordType": "gcj02"
     },
     "Payment": {},
-    "OAuth": {}
+    "OAuth": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
   },
   "plus": {
     "useragent": {
@@ -39,9 +42,7 @@
       "delay": 0
     },
     "popGesture": "close",
-    "launchwebview": {
-      "render": "always"
-    },
+    "launchwebview": {},
     "statusbar": {
       "immersed": "supportedDevice",
       "style": "dark",
@@ -135,6 +136,22 @@
         }
       }
     },
+    "nativePlugins": {
+      "GZF-YunPay": {
+        "__plugin_info__": {
+          "name": "YunPay",
+          "description": "uni-app唤起云闪付APP",
+          "platforms": "Android,iOS",
+          "url": "https://ext.dcloud.net.cn/plugin?id=650",
+          "android_package_name": "com.youxinbao.mm",
+          "ios_bundle_id": "",
+          "isCloud": true,
+          "bought": 1,
+          "pid": "650",
+          "parameters": {}
+        }
+      }
+    },
     "arguments": "{\"name\":\"\",\"path\":\"\",\"query\":\"\",\"id\":0}",
     "allowsInlineMediaPlayback": true,
     "safearea": {
@@ -144,9 +161,18 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "2.1.3",
-      "control": "webview",
-      "nvueCompiler": "weex"
+      "compilerVersion": "2.3.3",
+      "control": "v8",
+      "nvueCompiler": "weex",
+      "renderer": "auto"
+    },
+    "secondwebview": {
+      "id": "1",
+      "launch_path": "__uniappview.html",
+      "kernel": "WKWebview",
+      "mode": "child",
+      "top": 0,
+      "bottom": 56
     }
   }
 }

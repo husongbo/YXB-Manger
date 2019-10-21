@@ -1,5 +1,4 @@
 {
-  "usingComponents": {},
   "navigationBarTitleText": "我的积分",
   "animationType": "fade-in",
   "animationDuration": 300,
@@ -13,5 +12,6 @@
         "float": "right"
       }
     ]
-  }
+  },
+  "usingComponents": {}
 }

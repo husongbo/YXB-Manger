@@ -1,11 +1,11 @@
 
-.content.data-v-01f5f93e{
+.content.data-v-4145a35a{
     overflow: auto;
 	height: 100%;
 	background: white;
 	padding-top: 0rem;
 }
-.card.data-v-01f5f93e{
+.card.data-v-4145a35a{
 	background: #fff;
     -webkit-box-shadow: 0 0 0.6rem rgba(136, 130, 129, 0.3);
             box-shadow: 0 0 0.6rem rgba(136, 130, 129, 0.3);
@@ -14,10 +14,10 @@
     border-radius: 0.4rem;
     font-size: 0.7rem;
 }
-.card-content.data-v-01f5f93e{
+.card-content.data-v-4145a35a{
 	position: relative;
 }
-.card-content-inner.data-v-01f5f93e{
+.card-content-inner.data-v-4145a35a{
 	text-indent: 2em;
 	padding: 0.75rem;
     position: relative;

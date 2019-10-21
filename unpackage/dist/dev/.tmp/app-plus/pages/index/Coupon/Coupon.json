@@ -1,4 +1,7 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "优惠券"
+  "navigationBarTitleText": "优惠券",
+  "usingComponents": {
+    "simple-dialog": "/components/loading/dialog",
+    "simple-loading": "/components/loading/dialog-loading"
+  }
 }

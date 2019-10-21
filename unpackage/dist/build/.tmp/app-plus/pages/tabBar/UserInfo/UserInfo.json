@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "信息设置"
+  "navigationBarTitleText": "信息设置",
+  "usingComponents": {
+    "simple-loading": "/components/loading/dialog-loading"
+  }
 }

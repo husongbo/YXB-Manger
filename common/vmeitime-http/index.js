@@ -10,7 +10,7 @@ import http from './interface'
 export const test = (data) => {
 	//设置base地址
 	// http.config.baseUrl = "http://sms.youxinbao.com.cn"
-	http.config.baseUrl = "http://192.168.1.6:2001"
+	http.config.baseUrl = "http://smstest.youxinbao.com.cn"
 	//设置请求前拦截器
 	http.interceptor.request = (config) => {
 		config.header = {

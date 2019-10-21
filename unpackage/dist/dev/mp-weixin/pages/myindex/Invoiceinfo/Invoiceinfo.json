@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "发票记录",
-  "usingComponents": {
-    "w-picker": "/components/w-picker/w-picker",
-    "alerts": "/components/loading/alert",
-    "simple-loading": "/components/loading/dialog-loading",
-    "arrlists": "/pages/myindex/Invoiceinfo/list"
-  }
-}

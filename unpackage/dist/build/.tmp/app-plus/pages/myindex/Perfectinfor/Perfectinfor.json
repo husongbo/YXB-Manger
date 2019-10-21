@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "完善信息"
+  "navigationBarTitleText": "完善信息",
+  "usingComponents": {
+    "regs": "/pages/function/regfect/regfect"
+  }
 }

@@ -68,8 +68,8 @@
 				default: '余额付款'
 			},
 			CouponPrice:{
-				type:Number,
-				default:0
+				type:String,
+				default:'0'
 			}
 			
 		},

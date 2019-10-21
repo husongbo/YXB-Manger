@@ -1,11 +1,11 @@
 
-.title.data-v-dafc0ca0 {
+.title.data-v-48fd676c {
 	padding: 20rpx;
 }
-.swiper-tab-list.data-v-dafc0ca0{width: 33%;border-right: 1px solid #ccc;line-height: 1;}
-.swiper-tab-list.data-v-dafc0ca0:last-child{border: 0;}
-.uni-swiper-tab.data-v-dafc0ca0{height: 40px;line-height: 40px;background: white;border: 0;margin-top: 5rpx;}
-.coupon-count.data-v-dafc0ca0{
+.swiper-tab-list.data-v-48fd676c{width: 33%;border-right: 1px solid #ccc;line-height: 1;}
+.swiper-tab-list.data-v-48fd676c:last-child{border: 0;}
+.uni-swiper-tab.data-v-48fd676c{height: 40px;line-height: 40px;background: white;border: 0;margin-top: 5rpx;}
+.coupon-count.data-v-48fd676c{
 	width: 90%;
 	margin: 0 5%;
 	position: relative;
@@ -14,7 +14,7 @@
 	/* height: 200upx; */
 	/* background: url(../../../static/app-plus/img_lijilingqu_quan.png); */
 }
-.coupon-left.data-v-dafc0ca0{
+.coupon-left.data-v-48fd676c{
 	width: 30.7%;
 	height: 100%;
 	position: absolute;
@@ -37,7 +37,7 @@
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
-.coupon-right.data-v-dafc0ca0{
+.coupon-right.data-v-48fd676c{
 	width: 69.3%;
 	height: 100%;
 	position: absolute;

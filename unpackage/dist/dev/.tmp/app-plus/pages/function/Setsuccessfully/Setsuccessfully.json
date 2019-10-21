@@ -1,5 +1,4 @@
 {
-  "usingComponents": {},
   "navigationBarTitleText": "注册成功",
   "animationType": "fade-in",
   "animationDuration": 300,
@@ -14,5 +13,6 @@
         "float": "right"
       }
     ]
-  }
+  },
+  "usingComponents": {}
 }

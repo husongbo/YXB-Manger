@@ -1,2 +1,1 @@
-<import src="./Perfectinfor.vue.wxml" />
-    <template is="87a0923e" data="{{ ...$root['0'], $root }}"/>
+<view data-event-opts="{{[['touchstart',[['touchstart',['$event']]]],['touchmove',[['touchmove',['$event']]]]]}}" class="parent-re data-v-51130e8d" bindtouchstart="__e" bindtouchmove="__e"><regs vue-id="1" flag="{{flags}}" class="data-v-51130e8d" bind:__l="__l"></regs></view>

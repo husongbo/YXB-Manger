@@ -1,20 +1,20 @@
 
-.uni-media-list-text-top.data-v-c7c86644{
+.uni-media-list-text-top.data-v-73b3bf2c{
 	margin-left: 20rpx;
 	font-weight: bold;
 	margin-top: 4rpx;
 }
-.uni-list.data-v-c7c86644{
+.uni-list.data-v-73b3bf2c{
 	margin-top: 30rpx;
 }
-uni-navigator.data-v-c7c86644{
+uni-navigator.data-v-73b3bf2c{
 	width:100%;
 }
-.parents.data-v-c7c86644{
+.parents.data-v-73b3bf2c{
 	height: calc(100vh - 59px);
 	overflow-y: hidden;
 }
-.uni-list-cell.data-v-c7c86644::after{
+.uni-list-cell.data-v-73b3bf2c::after{
 	height: 0;
 }
 

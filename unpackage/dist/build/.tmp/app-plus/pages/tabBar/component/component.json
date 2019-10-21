@@ -1,6 +1,8 @@
 {
-  "usingComponents": {},
   "navigationBarTitleText": "导航",
   "animationType": "fade-in",
-  "animationDuration": 300
+  "animationDuration": 300,
+  "usingComponents": {
+    "simple-loading": "/components/loading/dialog-loading"
+  }
 }

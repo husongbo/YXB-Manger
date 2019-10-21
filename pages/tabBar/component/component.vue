@@ -262,7 +262,7 @@
 							var datas=`{method:"GetStationInfo",city_code:"${this.CityCode}"}`
 							console.log(JSON.stringify(datas))
 							uni.request({
-								url: 'http://www.uzdust.cn/App/Common/CSharp/app/user/UserInfo.ashx',
+								url: 'http://smstest.youxinbao.com.cn/App/Common/CSharp/app/user/UserInfo.ashx',
 								data:{
 									params:datas
 								},

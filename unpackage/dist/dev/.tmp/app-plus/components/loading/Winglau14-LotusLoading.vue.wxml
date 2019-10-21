@@ -1,1 +1,0 @@
-<template name="a4689b98"><view wx:if="{{lotusLoadingData.isShow}}" class="_view Ma4689b98 lotus-loading-wrap"><view class="_view Ma4689b98 lotus-loading-inner"><view class="_view Ma4689b98 lotus-loading-center"><text class="_text Ma4689b98 lotus-loading-img"></text><view class="_view Ma4689b98 lotus-loading-text">加载中</view></view></view></view></template>

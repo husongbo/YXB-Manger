@@ -1,5 +1,4 @@
 {
-  "usingComponents": {},
   "navigationBarTitleText": "个人中心",
   "titleNView": {
     "buttons": [
@@ -15,5 +14,11 @@
   },
   "animationType": "fade-in",
   "animationDuration": 300,
-  "bounce": "block"
+  "bounce": "block",
+  "usingComponents": {
+    "uni-icon": "/components/uni-icon",
+    "footers": "/pages/tabBar/footer/footer",
+    "alerts": "/components/loading/alert",
+    "simple-dialog": "/components/loading/dialog"
+  }
 }

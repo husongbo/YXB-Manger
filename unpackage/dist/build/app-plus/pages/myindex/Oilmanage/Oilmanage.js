@@ -1,2 +1,2 @@
-setCssToHead([".",[1],"uni-media-list-text-top.",[1],"data-v-7b3bfe10{margin-left: ",[0,30],";}\n.",[1],"list-parent.",[1],"data-v-7b3bfe10{ height: 100%; }\n",],undefined,{path:"./pages/myindex/Oilmanage/Oilmanage.wxss"})();
+setCssToHead([".",[1],"uni-media-list-text-top.",[1],"data-v-0feed59c{margin-left: ",[0,30],";}\n.",[1],"list-parent.",[1],"data-v-0feed59c{ height: 100%; }\n",],undefined,{path:"./pages/myindex/Oilmanage/Oilmanage.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/myindex/Oilmanage/Oilmanage.wxml') } }));

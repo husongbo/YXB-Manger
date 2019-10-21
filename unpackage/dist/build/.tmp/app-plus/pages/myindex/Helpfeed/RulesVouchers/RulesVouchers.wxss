@@ -1,11 +1,11 @@
 
-.content.data-v-553a494d{
+.content.data-v-6c3dff29{
     overflow: auto;
 	height:100%;
 	background: white;
 	padding-top: 1rem;
 }
-.card.data-v-553a494d{
+.card.data-v-6c3dff29{
 	background: #fff;
     -webkit-box-shadow: 0 0 0.6rem rgba(136, 130, 129, 0.3);
             box-shadow: 0 0 0.6rem rgba(136, 130, 129, 0.3);
@@ -15,13 +15,13 @@
     font-size: 0.7rem;
 	margin-top: 0.5rem;
 }
-.card-header.data-v-553a494d{
+.card-header.data-v-6c3dff29{
 	border-radius: 0.1rem 0.1rem 0 0;
     font-size: 0.85rem;
     font-weight: bold;
 	padding: 10rpx;
 }
-.card-header.data-v-553a494d:after {
+.card-header.data-v-6c3dff29:after {
     content: '';
     position: absolute;
     left: 0;
@@ -37,10 +37,10 @@
     -ms-transform-origin: 50% 100%;
         transform-origin: 50% 100%;
 }
-.card-content.data-v-553a494d{
+.card-content.data-v-6c3dff29{
 	position: relative;
 }
-.card-content-inner.data-v-553a494d{
+.card-content-inner.data-v-6c3dff29{
 	text-indent: 0em;
 	padding: 0.75rem;
     position: relative;

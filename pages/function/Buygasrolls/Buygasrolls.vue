@@ -97,7 +97,7 @@
 			</a>
 		</view>
 		<!-- 结算(层) -->
-		<view class="disk" v-if="diskif" @click="closepay">
+		<view class="disk" v-if="diskif" @click="closepays">
 		</view>
 		<view class="Payment" v-if="diskif" :class="{'Payaminate':Payamin}" >
 			<view v-if="payone">
@@ -124,6 +124,7 @@
 					选择付款方式
 					<image src="../../../static/navIcon/back.png" mode="" @click="backpayone"></image>
 				</view>
+				<!-- 微信 -->
 				<view style="border-bottom: 1px solid #ECECEC;" class="pay-active" @click="weixinoption">
 					<view class="pay-xz pay-xzs">
 						<view class="pay-xzs">
@@ -134,6 +135,18 @@
 						<image src="../../../static/personCenter/icon_ok.png" v-if="weixinimage"></image>
 					</view>
 				</view>
+				<!-- 云闪付 -->
+				<view style="border-bottom: 1px solid #ECECEC;" class="pay-active" @click="Optionyunshangfu">
+					<view class="pay-xz pay-xzs">
+						<view class="pay-xzs">
+						<image src="../../../static/personCenter/yufu.png" mode=""></image>
+						<span style="color:#ACACB4">云闪付</span>
+						<!-- <span style="color:white;background: #C0C0C0;margin-left: 20upx;font-size: 0.6rem;padding: 4upx;">推荐</span> -->
+						</view>
+						<image src="../../../static/personCenter/icon_ok.png" v-if="yunshanfuimage"></image>
+					</view>
+				</view>
+				<!-- 金額 -->
 				<view style="border-bottom: 1px solid #ECECEC;" class="pay-active" @click="Optionbalance">
 					<view class="pay-xz pay-xzs">
 						<view class="pay-xzs">
@@ -196,6 +209,7 @@
 				paytwo:false,//第二步
 				weixinimage:true,//默认选择微信
 				balanceimage:false,//选择账户余额
+				yunshanfuimage:false,//云闪付
 				money:"0.00",//余额
 				Promptinfo:'',//提示信息
 				payreplacetext:'微信',//获取支付方式
@@ -204,7 +218,7 @@
 					msg:''
 				},
 				BuyMoney:'',
-				CountBuyMoney:0,
+				CountBuyMoney:'0',
 				moneyno:false,
 				gasrolls:true,//加油成功
 				QRcode:false,//二维码显示
@@ -484,12 +498,24 @@
 				this.paytwo=false
 				this.payreplacetext='微信'
 				this.weixinimage=true
+				this.yunshanfuimage=false
 				this.balanceimage=false
+				this.vervisit='none'
+				this.veramin=false
+			},
+			Optionyunshangfu(){
+				this.payone=true
+				this.paytwo=false
+				this.payreplacetext='云闪付'
+				this.yunshanfuimage=true//云闪付
+				this.weixinimage=false//微信
+				this.balanceimage=false//金额
 				this.vervisit='none'
 				this.veramin=false
 			},
 			//返回第一步
 			backpayone(){
+				this.yunshanfuimage=false
 				this.payone=true
 				this.paytwo=false
 				this.vervisit='none'
@@ -500,8 +526,17 @@
 				this.weixinoption()
 				this.diskif=false
 				this.Payamin=false
-				
 				// this.$refs.keyboard.hide();
+			},
+			closepays(){
+				this.weixinoption()
+				this.diskif=false
+				this.Payamin=false
+				uni.showToast({
+					title:'已取消支付',
+					duration: 1000,
+					icon:"none",
+				})
 			},
 			//获取输入的密码
 			done(password) {
@@ -595,6 +630,28 @@
 						}
 					});
 					return;
+				}
+				if(this.payreplacetext=='云闪付'){
+					const yunPay = uni.requireNativePlugin('GZF-YunPay');
+					yunPay.show({
+						title: '685871836444776059921'
+					}, result => {
+						console.log(result)
+						let type = result.type;
+						if(parseInt(type) == -1){
+							// 未安装
+							uni.showToast({
+							  icon: 'none',
+							  title: '请安装云闪付APP',
+							  duration: 1000
+							});
+						}else if(parseInt(type) == 0){
+							// 支付成功
+						}else{
+							// 支付失败
+						}
+					});
+					return
 				}
 				this.$refs.keyboard.show();
 				this.payone=false

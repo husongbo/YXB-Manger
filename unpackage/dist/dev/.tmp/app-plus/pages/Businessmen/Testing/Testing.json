@@ -1,4 +1,7 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "电子券测试商户"
+  "navigationBarTitleText": "电子券测试商户",
+  "usingComponents": {
+    "simple-dialog": "/components/loading/dialog",
+    "simple-loading": "/components/loading/dialog-loading"
+  }
 }

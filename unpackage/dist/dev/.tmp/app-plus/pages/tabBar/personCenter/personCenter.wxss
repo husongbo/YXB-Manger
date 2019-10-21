@@ -1,4 +1,19 @@
 
+.footer-img{
+		width: 20px;
+		height: 20px;
+		position: relative;
+		top:10rpx;
+}
+.aui-active{
+	color:rgb(255,130,0);
+	/* #f7f7f8 */
+}
+.aui-bar-tab{
+ background:#f7f7f8 ;
+}
+
+
 page.data-v-59f160df {
         height: auto;
         min-height: 100%;

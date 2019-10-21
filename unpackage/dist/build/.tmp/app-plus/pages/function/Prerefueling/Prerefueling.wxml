@@ -1,2 +1,1 @@
-<import src="./Prerefueling.vue.wxml" />
-    <template is="ad0ab946" data="{{ ...$root['0'], $root }}"/>
+<view><web-view src="https://pro.m.jd.com/mall/active/2Jzx4sLy87zT7ZfLApuc49fTaZAU/index.html"></web-view></view>

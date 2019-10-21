@@ -37,26 +37,26 @@ page {
 /* 边框颜色 */
 /* 背景颜色 */
 /* 行为相关颜色 */
-.page_login.data-v-b0f584b8 {
+.page_login.data-v-570e12f2 {
   padding: 20rpx;
   background: white;
   height: 100vh;
 }
-.UserPhone input.data-v-b0f584b8 {
+.UserPhone input.data-v-570e12f2 {
   width: 80%;
   margin: 20rpx 10%;
   border-bottom: 1px solid #ccc;
   height: 80rpx;
   line-height: 80rpx;
 }
-uni-input input.data-v-b0f584b8 {
+uni-input input.data-v-570e12f2 {
   height: 80rpx;
   line-height: 80rpx;
 }
-uni-button.data-v-b0f584b8 {
+uni-button.data-v-570e12f2 {
   border: 0;
 }
-.head.data-v-b0f584b8 {
+.head.data-v-570e12f2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -72,7 +72,7 @@ uni-button.data-v-b0f584b8 {
   margin-top: 80rpx;
   padding-bottom: 60px;
 }
-.head .head_bg.data-v-b0f584b8 {
+.head .head_bg.data-v-570e12f2 {
     width: 80px;
     height: 80px;
     display: -webkit-box;
@@ -88,7 +88,7 @@ uni-button.data-v-b0f584b8 {
         -ms-flex-pack: center;
             justify-content: center;
 }
-.head .head_bg .head_inner_bg.data-v-b0f584b8 {
+.head .head_bg .head_inner_bg.data-v-570e12f2 {
       border-radius: 40px;
       width: 80px;
       height: 80px;
@@ -106,7 +106,7 @@ uni-button.data-v-b0f584b8 {
               justify-content: center;
       overflow: hidden;
 }
-.login_form.data-v-b0f584b8 {
+.login_form.data-v-570e12f2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -128,12 +128,12 @@ uni-button.data-v-b0f584b8 {
   border: 1px solid #d6d6d6;
   border-radius: 10px;
 }
-.login_form .line.data-v-b0f584b8 {
+.login_form .line.data-v-570e12f2 {
     width: 100%;
     height: 1px;
     background-color: #d6d6d6;
 }
-.login_form .input.data-v-b0f584b8 {
+.login_form .input.data-v-570e12f2 {
     width: 100%;
     max-height: 45px;
     display: -webkit-box;
@@ -155,7 +155,7 @@ uni-button.data-v-b0f584b8 {
         -ms-flex-pack: center;
             justify-content: center;
 }
-.login_form .input .img.data-v-b0f584b8 {
+.login_form .input .img.data-v-570e12f2 {
       min-width: 60rpx;
       min-height: 50rpx;
       margin: 5px;
@@ -172,23 +172,23 @@ uni-button.data-v-b0f584b8 {
           -ms-flex-pack: center;
               justify-content: center;
 }
-.login_form .input .img_del.data-v-b0f584b8 {
+.login_form .input .img_del.data-v-570e12f2 {
       width: 21px;
       height: 21px;
 }
-.login_form .input .img_pwd_switch.data-v-b0f584b8 {
+.login_form .input .img_pwd_switch.data-v-570e12f2 {
       width: 28px;
       height: 12px;
 }
-.login_form .input input.data-v-b0f584b8 {
+.login_form .input input.data-v-570e12f2 {
       outline: none;
       height: 30px;
       width: 100%;
 }
-.login_form .input input.data-v-b0f584b8:focus {
+.login_form .input input.data-v-570e12f2:focus {
         outline: none;
 }
-.submit.data-v-b0f584b8 {
+.submit.data-v-570e12f2 {
   margin-top: 30px;
   height: 80rpx;
   line-height: 80rpx;
@@ -198,10 +198,10 @@ uni-button.data-v-b0f584b8 {
   width: 80%;
   margin: 40rpx 10%;
 }
-uni-button.data-v-b0f584b8:after {
+uni-button.data-v-570e12f2:after {
   border: 0;
 }
-.opts.data-v-b0f584b8 {
+.opts.data-v-570e12f2 {
   margin-top: 5px;
   margin-left: 25px;
   margin-right: 25px;
@@ -225,11 +225,11 @@ uni-button.data-v-b0f584b8:after {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.opts .text.data-v-b0f584b8 {
+.opts .text.data-v-570e12f2 {
     font-size: 13px;
     color: #B6B6B6;
 }
-.quick_login_line.data-v-b0f584b8 {
+.quick_login_line.data-v-570e12f2 {
   margin-top: 40px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -249,17 +249,17 @@ uni-button.data-v-b0f584b8:after {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.quick_login_line .line.data-v-b0f584b8 {
+.quick_login_line .line.data-v-570e12f2 {
     height: 1px;
     width: 38%;
     background-color: #d3d3d5;
 }
-.quick_login_line .text.data-v-b0f584b8 {
+.quick_login_line .text.data-v-570e12f2 {
     font-size: 13px;
     color: #c8c8c8;
     margin: 2px;
 }
-.quick_login_list.data-v-b0f584b8 {
+.quick_login_list.data-v-570e12f2 {
   margin-top: 30px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -279,7 +279,7 @@ uni-button.data-v-b0f584b8:after {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.quick_login_list .item.data-v-b0f584b8 {
+.quick_login_list .item.data-v-570e12f2 {
     width: 50px;
     height: 50px;
     margin: 20px;

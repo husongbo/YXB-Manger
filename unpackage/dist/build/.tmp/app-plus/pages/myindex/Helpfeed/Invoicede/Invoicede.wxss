@@ -1,10 +1,10 @@
 
-.content.data-v-0e43eda2{
+.content.data-v-8cc167fc{
 	height: 100%;
 	background: white;
 	padding-top: 1rem;
 }
-.card.data-v-0e43eda2{
+.card.data-v-8cc167fc{
 	background: #fff;
     -webkit-box-shadow: 0 0 0.6rem rgba(136, 130, 129, 0.3);
             box-shadow: 0 0 0.6rem rgba(136, 130, 129, 0.3);
@@ -13,7 +13,7 @@
     border-radius: 0.4rem;
     font-size: 0.7rem;
 }
-.card-header.data-v-0e43eda2{
+.card-header.data-v-8cc167fc{
 	border-radius: 0.1rem 0.1rem 0 0;
 	font-size: 0.85rem;
 	font-weight: bold;
@@ -35,7 +35,7 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.card-header.data-v-0e43eda2:after {
+.card-header.data-v-8cc167fc:after {
     content: '';
     position: absolute;
     left: 0;
@@ -51,10 +51,10 @@
     -ms-transform-origin: 50% 100%;
         transform-origin: 50% 100%;
 }
-.card-content.data-v-0e43eda2{
+.card-content.data-v-8cc167fc{
 	position: relative;
 }
-.card-content-inner.data-v-0e43eda2{
+.card-content-inner.data-v-8cc167fc{
 	text-indent: 0rem;
 	padding: 0.75rem;
     position: relative;

@@ -1,5 +1,4 @@
 {
-  "usingComponents": {},
   "navigationBarTitleText": "提取码申请发票",
   "titleNView": {
     "buttons": [
@@ -12,5 +11,6 @@
         "float": "right"
       }
     ]
-  }
+  },
+  "usingComponents": {}
 }

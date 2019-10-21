@@ -1,11 +1,11 @@
 
-.content.data-v-4efd20f4{
+.content.data-v-0f507380{
     overflow: auto;
 	/* height: calc(100vh - 44px); */
 	background: white;
 	padding-top: 1rem;
 }
-.card.data-v-4efd20f4{
+.card.data-v-0f507380{
 	background: #fff;
     -webkit-box-shadow: 0 0 0.6rem rgba(136, 130, 129, 0.3);
             box-shadow: 0 0 0.6rem rgba(136, 130, 129, 0.3);
@@ -15,19 +15,19 @@
     font-size: 0.7rem;
 	margin-top: 0.5rem;
 }
-.modal-title.data-v-4efd20f4{
+.modal-title.data-v-0f507380{
 	font-weight: 500;
     font-size: 0.9rem;
     text-align: center;
 }
-.card-content.data-v-4efd20f4{
+.card-content.data-v-0f507380{
 	position: relative;
 }
-.card-content-inner.data-v-4efd20f4{
+.card-content-inner.data-v-0f507380{
 	padding: 0.75rem;
     position: relative;
 }
-.card-header.data-v-4efd20f4{
+.card-header.data-v-0f507380{
 	border-radius: 0.1rem 0.1rem 0 0;
     font-size: 0.85rem;
     font-weight: bold;
@@ -49,13 +49,13 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.indent1.data-v-4efd20f4{
+.indent1.data-v-0f507380{
 	text-indent: 2em;
 }
-.indent2.data-v-4efd20f4{
+.indent2.data-v-0f507380{
 	text-indent: 3em;
 }
-.card-header.data-v-4efd20f4:after {
+.card-header.data-v-0f507380:after {
     content: '';
     position: absolute;
     left: 0;

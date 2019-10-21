@@ -1,1 +1,0 @@
-<template name="693e07ee"><view class="_view M693e07ee"><view class="_view M693e07ee simple-load load-modal" wx:if="{{showLoading}}" catchtouchmove="handleProxy" data-eventid="{{'693e07ee-0'}}" data-comkey="{{$k}}"><image src="{{image}}" class="_image M693e07ee png" mode="aspectFit"></image><view class="_view M693e07ee has-desc-color">{{text}}</view></view></view></template>

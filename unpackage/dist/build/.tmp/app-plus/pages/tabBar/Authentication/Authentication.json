@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "手机验证码登录"
+  "navigationBarTitleText": "手机验证码登录",
+  "usingComponents": {
+    "simple-loading": "/components/loading/dialog-loading"
+  }
 }

@@ -1,23 +1,23 @@
 
-.uni-media-list-logo.data-v-a3ae9d52{
+.uni-media-list-logo.data-v-47116cc4{
 	width: 26px;
 	height: 26px;
 }
-.uni-media-list-body.data-v-a3ae9d52 {
+.uni-media-list-body.data-v-47116cc4 {
 	height: 36px;
 }
-.uni-list-cell-navigate.uni-navigate-right.data-v-a3ae9d52:after{
+.uni-list-cell-navigate.uni-navigate-right.data-v-47116cc4:after{
 	content: '';
 }
-.money.data-v-a3ae9d52{
+.money.data-v-47116cc4{
 	color: #ff8200;
 	font-size: 0.9rem;
 }
-.parent-view.data-v-a3ae9d52{
+.parent-view.data-v-47116cc4{
 	height: calc(100vh - 44px);
 	overflow-y: hidden;
 }
-.tab.data-v-a3ae9d52{
+.tab.data-v-47116cc4{
 	text-align: center;
 	background: white;
 	display: -webkit-box;
@@ -34,7 +34,7 @@
 	        justify-content: center;
 	padding: 10rpx 0;
 }
-.tab image.data-v-a3ae9d52{
+.tab image.data-v-47116cc4{
 	width: 36rpx;
 	height: 36rpx;
 	position: relative;

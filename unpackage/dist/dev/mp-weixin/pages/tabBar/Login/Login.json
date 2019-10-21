@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "用户登录",
-  "usingComponents": {
-    "alerts": "/components/loading/alert",
-    "simple-loading": "/components/loading/dialog-loading",
-    "simple-dialog": "/components/loading/dialog"
-  }
-}

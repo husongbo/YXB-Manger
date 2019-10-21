@@ -1,2 +1,1 @@
-<import src="./reunicom.vue.wxml" />
-    <template is="e89598e0" data="{{ ...$root['0'], $root }}"/>
+<view><web-view src="https://upay.10010.com/jf_wxgz"></web-view></view>

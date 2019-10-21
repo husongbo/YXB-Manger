@@ -1,2 +1,1 @@
-<import src="./Appinvoice.vue.wxml" />
-    <template is="e236627e" data="{{ ...$root['0'], $root }}"/>
+<view class="parent-view data-v-0e98c9b8"><view class="title data-v-0e98c9b8">发票提取码</view><input class="uni-input data-v-0e98c9b8" name="input"/><view class="title data-v-0e98c9b8">验证码</view><view class="data-v-0e98c9b8"><input class="uni-yzm data-v-0e98c9b8" name="input"/><view class="uni-yzmrefresh data-v-0e98c9b8"><view class="yzm-img data-v-0e98c9b8"></view><label class="_span data-v-0e98c9b8">看不清，换一张</label></view></view><uni-button class="register-ok data-v-0e98c9b8" vue-id="1" data-v-5c82e918 bind:__l="__l" vue-slots="{{['default']}}">提交</uni-button></view>

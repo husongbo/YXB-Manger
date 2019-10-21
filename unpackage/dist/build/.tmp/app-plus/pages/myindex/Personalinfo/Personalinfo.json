@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "个人信息"
+  "navigationBarTitleText": "个人信息",
+  "usingComponents": {
+    "simple-dialog": "/components/loading/dialog"
+  }
 }

@@ -1,4 +1,8 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "微信账户授权"
+  "navigationBarTitleText": "微信账户授权",
+  "usingComponents": {
+    "alerts": "/components/loading/alert",
+    "simple-dialog": "/components/loading/dialog",
+    "simple-loading": "/components/loading/dialog-loading"
+  }
 }

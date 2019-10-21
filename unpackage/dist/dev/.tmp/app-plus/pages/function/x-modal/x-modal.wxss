@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 行为相关颜色 */
+.modal-view {
+  position: fixed !important;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  background: rgba(0, 0, 0, 0.46);
+  visibility: hidden;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  will-change: auto;
+  opacity: 0;
+}
+.modal-view .modal-content {
+    background: #fff;
+    width: 80%;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50px;
+    -webkit-transform: scale3d(0.465, 0.465, 0.465);
+    transform: scale3d(0.465, 0.465, 0.465);
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    will-change: auto;
+}
+.modal-view .modal-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #030303;
+}
+.modal-view .modal-col {
+    -ms-flex-preferred-size: 0;
+    -webkit-flex-basis: 0;
+            flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    -webkit-flex-grow: 1;
+            flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    -webkit-transition: all .1s;
+    -o-transition: all .1s;
+    transition: all .1s;
+}
+.modal-view .modal-active {
+    background: #f2f2f2;
+}
+.modal-view .modal-title {
+    font-size: 18px;
+    text-align: center;
+    padding: 1em 1.6em .3em;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.modal-view .modal-main {
+    padding: 1.3em 1.6em 1.3em;
+    font-size: 15px;
+    line-height: 26px;
+    max-height: 400px;
+    overflow-y: auto;
+    color: #999;
+}
+.modal-view .modal-padding {
+    padding: 10px 15px;
+}
+.modal-view .modal-text-center {
+    text-align: center;
+}
+.modal-view .modal-border-top::after, .modal-view .modal-border-right::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.modal-view .modal-border-top::after {
+    left: 0;
+    height: 1px;
+    border-top: 1px solid #d5d5d5;
+    -webkit-transform: scaleY(0.36) translateY(-1px);
+        -ms-transform: scaleY(0.36) translateY(-1px);
+            transform: scaleY(0.36) translateY(-1px);
+}
+.modal-view .modal-border-right::after {
+    bottom: 0;
+    width: 1px;
+    border-right: 1px solid #d5d5d5;
+    -webkit-transform: scaleX(0.36) translateX(1px);
+        -ms-transform: scaleX(0.36) translateX(1px);
+            transform: scaleX(0.36) translateX(1px);
+}
+.modal-view.modal-show {
+  visibility: visible;
+  opacity: 1;
+}
+.modal-view.modal-show .modal-content {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+@-webkit-keyframes fadeIn {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+@keyframes fadeIn {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+

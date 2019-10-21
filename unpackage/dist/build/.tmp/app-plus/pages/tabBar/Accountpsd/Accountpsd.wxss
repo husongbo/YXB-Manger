@@ -30,14 +30,14 @@
 /* 边框颜色 */
 /* 背景颜色 */
 /* 行为相关颜色 */
-button.data-v-673b1387::after {
+button.data-v-0da0920b::after {
   border: none;
 }
-.content.data-v-673b1387 {
+.content.data-v-0da0920b {
   background: white;
   height: 100%;
 }
-.submit.data-v-673b1387 {
+.submit.data-v-0da0920b {
   margin-top: 30px;
   height: 80rpx;
   line-height: 80rpx;
@@ -47,20 +47,20 @@ button.data-v-673b1387::after {
   width: 80%;
   margin: 40rpx 10%;
 }
-.Forgetpsd.data-v-673b1387 {
+.Forgetpsd.data-v-0da0920b {
   text-align: right;
   margin: 20rpx 0;
 }
-.input-box.data-v-673b1387 {
+.input-box.data-v-0da0920b {
   padding: 50rpx;
   font-size: 30rpx;
 }
-.input-box .Promptpsd.data-v-673b1387 {
+.input-box .Promptpsd.data-v-0da0920b {
     color: red;
     font-size: 0.7rem;
     margin-top: 20rpx;
 }
-.input-box .input-item.data-v-673b1387 {
+.input-box .input-item.data-v-0da0920b {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -70,7 +70,7 @@ button.data-v-673b1387::after {
     line-height: 100rpx;
     height: 100rpx;
 }
-.input-box .input-item .input-label.data-v-673b1387 {
+.input-box .input-item .input-label.data-v-0da0920b {
       width: 150rpx;
       display: -webkit-box;
       display: -webkit-flex;
@@ -85,19 +85,19 @@ button.data-v-673b1387::after {
           -ms-flex-align: center;
               align-items: center;
 }
-.input-box .input-item .input-body.data-v-673b1387 {
+.input-box .input-item .input-body.data-v-0da0920b {
       position: relative;
       height: 100rpx;
       width: calc(100% - 150rpx);
 }
-.input-box .input-item .input-body .input.data-v-673b1387 {
+.input-box .input-item .input-body .input.data-v-0da0920b {
         line-height: 100rpx;
         height: 100rpx;
         position: relative;
         font-size: 28rpx;
         width: 70%;
 }
-.input-box .input-item .input-body .eye.data-v-673b1387 {
+.input-box .input-item .input-body .eye.data-v-0da0920b {
         position: absolute;
         height: 50rpx;
         width: 50rpx;
@@ -107,7 +107,7 @@ button.data-v-673b1387::after {
             -ms-transform: translateY(-50%);
                 transform: translateY(-50%);
 }
-.input-box .input-item .input-body .btn-code.data-v-673b1387 {
+.input-box .input-item .input-body .btn-code.data-v-0da0920b {
         position: absolute;
         right: 0rpx;
         top: 50%;
@@ -125,7 +125,7 @@ button.data-v-673b1387::after {
         height: 100rpx;
         line-height: 100rpx;
 }
-.input-box .select.data-v-673b1387 {
+.input-box .select.data-v-0da0920b {
     padding-top: 40rpx;
     display: -webkit-box;
     display: -webkit-flex;
@@ -137,7 +137,7 @@ button.data-v-673b1387::after {
             justify-content: space-between;
     color: #003B67;
 }
-.button.data-v-673b1387 {
+.button.data-v-0da0920b {
   margin: 0 5%;
   background: #ff8200;
   border-radius: 50rpx;
