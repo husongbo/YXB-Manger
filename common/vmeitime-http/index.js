@@ -10,7 +10,8 @@ import http from './interface'
 export const test = (data) => {
 	//设置base地址
 	// http.config.baseUrl = "http://sms.youxinbao.com.cn"
-	http.config.baseUrl = "http://smstest.youxinbao.com.cn"
+	// http.config.baseUrl = "http://smstest.youxinbao.com.cn"
+	http.config.baseUrl="http://192.168.1.6:2001"
 	//设置请求前拦截器
 	http.interceptor.request = (config) => {
 		config.header = {
@@ -59,10 +60,18 @@ export const AuthLogin = (data) => {
     })
 }
 
+export const GetFuiouUnionPayApi= (data) =>{
+	return http.request({
+	    url: '/App/Common/CSharp/Pay/Fuiou/GetFuiouUnionPayApi.ashx',
+	    method: 'POST', 
+	    data,
+	})
+}
 
 // 默认全部导出  import api from '@/common/vmeitime-http/'
 export default {
 	ReagisterPhone,
 	SendVerfyCode,
-	AuthLogin
+	AuthLogin,
+	GetFuiouUnionPayApi,
 }

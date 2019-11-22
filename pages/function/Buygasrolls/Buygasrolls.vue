@@ -188,6 +188,8 @@
 	import { mapState,mapMutations } from 'vuex';
 	import tkiQrcode from '@/components/tki-qrcode/tki-qrcode.vue'
 	import coupon from '@/components/coolc-coupon/coolc-coupon';
+	import {GetFuiouUnionPayApi} from '@/common/vmeitime-http/index.js'
+	// import $ from '../../../util/jquery-3.1.1.js'
 	export default {
 		data() {
 			return {
@@ -608,6 +610,7 @@
 			},
 			//显示密码框
 			confirmPwd() {
+				var _this=this
 				if(this.payreplacetext=='微信'){
 					this.payone=false
 					this.closepay();
@@ -632,25 +635,53 @@
 					return;
 				}
 				if(this.payreplacetext=='云闪付'){
-					const yunPay = uni.requireNativePlugin('GZF-YunPay');
-					yunPay.show({
-						title: '685871836444776059921'
-					}, result => {
-						console.log(result)
-						let type = result.type;
-						if(parseInt(type) == -1){
-							// 未安装
-							uni.showToast({
-							  icon: 'none',
-							  title: '请安装云闪付APP',
-							  duration: 1000
+					var datainfo={
+						allAmount:parseFloat(this.BuyMoney),//总金额
+						discountIDs:'',//选择的优惠券
+						trxamt:parseFloat(this.CountBuyMoney)*100,//总金额-优惠金额
+						body:'购买加油劵码',
+						remark:'',
+						orderType:'SaleCoupon'
+					}
+					console.log(datainfo)
+					datainfo=JSON.stringify(datainfo)
+					uni.request({
+						method:'POST',
+					    url: 'http://192.168.1.6:2001/App/Common/CSharp/Pay/Fuiou/GetFuiouUnionPayApi.ashx',
+					    data:datainfo,
+						header:{
+							 'content-type' : 'application/x-www-form-urlencoded'
+						},
+						dataType:"json",
+					    success: (res) => {
+					        console.log(res.data.tn);
+							const yunPay = uni.requireNativePlugin('GZF-YunPay');
+							yunPay.show({
+								title: res.data.tn
+							}, result => {
+								console.log(result)
+								let type = result.type;
+								if(parseInt(type) == -1){
+									// 未安装
+									uni.showToast({
+									  icon: 'none',
+									  title: '请安装云闪付APP',
+									  duration: 1000
+									});
+								}else if(parseInt(type) == 0){
+									_this.diskif=false
+									_this.Payamin=false
+									// 支付成功
+								}else{
+									// 支付失败
+								}
 							});
-						}else if(parseInt(type) == 0){
-							// 支付成功
-						}else{
-							// 支付失败
+					    },
+						fail:(err) => {
+							console.log(err);
 						}
 					});
+					
 					return
 				}
 				this.$refs.keyboard.show();

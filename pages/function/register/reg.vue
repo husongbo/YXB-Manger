@@ -233,7 +233,7 @@
 					// }
 					if(this.regindex==0){
 						this.regindex==1
-						var datas=`{method:"UpdateUserInfo",real_name:"${this.userinfos.userName}",card_id:"${this.userinfos.userId}",contry:"${this.userinfos.Country}",province:"${this.userinfos.Province}",city:"${this.userinfos.City}",conuty:"${this.userinfos.Area}",address:"${this.userinfos.userAddress}",email:"${this.userinfos.userEamil}",phone:"${this.userinfos.userPhone}"}`
+						var datas=`{method:"UpdateUserInfo",user_id:"${this.UserInfo.userid}",real_name:"${this.userinfos.userName}",card_id:"${this.userinfos.userId}",contry:"${this.userinfos.Country}",province:"${this.userinfos.Province}",city:"${this.userinfos.City}",conuty:"${this.userinfos.Area}",address:"${this.userinfos.userAddress}",email:"${this.userinfos.userEamil}",phone:"${this.userinfos.userPhone}"}`
 						console.log(datas)
 						this.$refs.simpleLoading.show({
 							image:"../../../static/app-plus/tus.png",
